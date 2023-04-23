@@ -28,8 +28,8 @@ if __name__ == '__main__':
         exit()
     messagebox.showinfo(title=None, message='in the morning, you see Mary walk out of her room. You invite her to breakfast and inquire about her sleep. She looks at you gratefully and thanks you for letting her stay. She then apologizes for being rude, but tells you that she had the worst sleep of her life. There was a lump on the bed bothering her the whole night! ')
     q4 = simpledialog.askstring(title=None, prompt='your plan worked! Mary uis a princess! Will you ask her to  marry your son?')
-  if q3 =='yes':
+    if q4 =='yes':
         messagebox.showinfo(title=None, message='Mary agrees, and they live happily ever after! This is the end of your journey!')
-    if q3 == 'no':
+    if q4 == 'no':
         messagebox.showinfo(title=None, message='at least you found out that shes a princess. This is the end of your journey!')
         exit()
