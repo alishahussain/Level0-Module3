@@ -7,7 +7,7 @@ def draw():
     for i in range(5):
         s-=80
         if i%2==1:
-            fill(255,0,0)
+            fill(252,186,3)
         else:
-            fill(100,255,0)
+            fill(255,0,0)
         ellipse(250,250,s,s)
